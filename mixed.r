@@ -1,3 +1,10 @@
+###########
+## @Description           a simple normal mixture modeling function for clustering to the subfamily EII
+## @data                  dataframe of n observations and p variables  
+## @k                     number of initial clusters 
+## @return                returns a list of cluster weights, means, and covariance matrices
+############  
+
 mixed <- function(data,k){
     n <- nrow(data)
     p <- ncol(data)
